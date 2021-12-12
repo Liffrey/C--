@@ -2,9 +2,10 @@
 //function template
 #include <iostream>
 
-template <class T>
+//template <class T>
+template <typename T>
 
-T sum (T a, T b)
+T sum (const T& a, const T& b)
 {
     T result;
     result = a+b;
